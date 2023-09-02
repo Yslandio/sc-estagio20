@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Audiowide', sans-serif;
+}
+
+/* Estilizando a barra de rolagem */
+::-webkit-scrollbar {
+    width: 10px;
+    /* Largura da barra de rolagem */
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(244, 244, 244);
+    /* Cor do fundo da barra de rolagem */
+}
+
+::-webkit-scrollbar-thumb {
+    background: gray;
+    /* Cor da barra de rolagem */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(56, 56, 56);
+    /* Cor da barra de rolagem ao passar o mouse */
+}
+
+.box-day {
+    width: 150px;
+}
+
+.form-label {
+    margin-top: 0.5rem;
+}
+
+.btn-outline-secondary svg {
+    fill: #6c757d
+}
+
+.btn-outline-success svg {
+    fill: #198754
+}
+
+.btn-outline-primary svg {
+    fill: #0d6efd
+}
+
+.btn-outline-info svg {
+    fill: #0dcaf0
+}
+
+.btn-outline-dark svg {
+    fill: #212529
+}
+
+.btn-outline-danger svg {
+    fill: #dc3545
+}
+
+.btn-outline-warning svg {
+    fill: #fd7e14
+}
+
+.btn-outline-secondary:hover svg,
+.btn-outline-success:hover svg,
+.btn-outline-primary:hover svg,
+.btn-outline-dark:hover svg,
+.btn-outline-danger:hover svg {
+    fill: #fff
+}
+
+.btn-outline-info:hover svg,
+.btn-outline-warning:hover svg {
+    fill: #000
+}
+
+th {
+    font-size: 12pt;
+}
+
+td {
+    font-size: 10pt;
+}
+
+@media screen and (max-width: 1400px) {
+    /* .box-day {
+        width: 150px;
+    } */
+
+    th {
+        font-size: 10pt;
+    }
+
+    td {
+        font-size: 8pt;
+    }
+}
